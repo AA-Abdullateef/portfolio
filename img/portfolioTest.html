@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="MyPortfolioAboutStyle.css">
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="MyPortfolioIndex.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="MyPortfolioAbout.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="MyPortfolioProjects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="MyPortfolioContact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects Header -->
+  <div class="container py-5 text-center">
+    <h2 class="display-5 fw-bold">My Projects</h2>
+    <p class="text-muted text-primary fw-bold text-decoration-underline">Here are some of the things I have built recently</p>
+  </div>
+
+  <!-- Projects Grid -->
+  <section class="container py-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- Project Card Template -->
+      <!-- Repeat this block for each project -->
+      <div class="col">
+        <div class="card h-100 bg-dark border border-secondary">
+          <img src="no_bg.png" class="card-img-top" alt="Zeltecnologies">
+          <div class="card-body">
+            <h4 class="card-title">Zeltecnologies</h4>
+            <p class="card-text">A well-built, clean, and responsive website.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">PHP</span>
+              <span class="badge bg-primary">Laravel</span>
+              <span class="badge bg-primary">Bootstrap</span>
+              <span class="badge bg-primary">Javascript</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="https://Zeltecnologies.com" class="btn btn-warning w-100">Visit Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above .col block for other projects with updated info -->
+
+      <div class="col">
+        <div class="card h-100 bg-dark border border-secondary">
+          <img src="no_bg.png" class="card-img-top" alt="Zeltecnologies">
+          <div class="card-body">
+            <h4 class="card-title">Zeltecnologies</h4>
+            <p class="card-text">A well-built, clean, and responsive website.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">PHP</span>
+              <span class="badge bg-primary">Laravel</span>
+              <span class="badge bg-primary">Bootstrap</span>
+              <span class="badge bg-primary">Javascript</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="https://Zeltecnologies.com" class="btn btn-warning w-100">Visit Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above .col block for other projects with updated info -->
+
+      <div class="col">
+        <div class="card h-100 bg-dark border border-secondary">
+          <img src="no_bg.png" class="card-img-top" alt="Zeltecnologies">
+          <div class="card-body">
+            <h4 class="card-title">Zeltecnologies</h4>
+            <p class="card-text">A well-built, clean, and responsive website.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">PHP</span>
+              <span class="badge bg-primary">Laravel</span>
+              <span class="badge bg-primary">Bootstrap</span>
+              <span class="badge bg-primary">Javascript</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <a href="https://Zeltecnologies.com" class="btn btn-warning w-100">Visit Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above .col block for other projects with updated info -->
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="bg-secondary text-white py-5 mb-5 container rounded shadow-lg">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..."></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark px-4">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Send Mail -->
+  <section class="container py-5 text-center">
+    <p class="lead">Send Mail</p>
+    <a href="mailto:adeyemodev@gmail.com" class="btn btn-outline-info btn-lg text-white">Click here</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-4">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-white text-decoration-none">About</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Projects</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Offices</h5>
+          <p>Head Office: 6th Avenue, Gwarinpa</p>
+          <p>Branch: Dutse, Abuja</p>
+          <p>Tel: 08131664966</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Me</h5>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
