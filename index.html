@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="bg-dark text-white">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold border border-2 border-secondary px-3 rounded-3" href="index.html">Abdullateef</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center vh-100 hero shadow-lg">
+      <div class="bg-opacity-50 p-5 rounded hero-overlay d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-3">Hi! I'm Adeyemo Abdullateef</h1>
+        <h3>Full Stack Web Developer</h3>
+        <a href="#projects" class="btn btn-outline-info btn-lg mt-3 text-white">View Projects</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 border rounded border-danger text-center h-100">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Adeyemo Abdullateef — a passionate Full Stack Developer with a focus on crafting clean, responsive, and dynamic web applications. I specialize in both front-end and back-end development using modern tools like HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL.
+            </p>
+            <a href="#" class="btn btn-outline-danger mt-3">Learn More About Us</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 border rounded border-warning text-center h-100">
+            <h2>Experience</h2>
+            <p class="d-flex justify-content-end">
+              <ul>
+                <li>Developed and deployed dynamic websites using PHP and MySQL.</li>
+                <li>Designed responsive UI/UX using HTML, CSS, and Bootstrap.</li>
+                <li>Built secure contact forms, admin dashboards, and CMS solutions.</li>
+                <li>Managed hosting, domain setup, and database configurations.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container py-5" id="projects">
+      <h2 class="text-center text-primary mb-4 fw-bold">Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/zeltech.png" class="card-img-top h-100" alt="Zeltecnologies Project">
+            <div class="card-body text-center">
+              <h5 class="card-title">Zeltecnologies</h5>
+              <p class="card-text">A well-built, clean, and responsive website.</p>
+              <a href="projects.html" class="btn btn-info">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/hlogo.png" class="card-img-top" alt="Modern Reality Hotel Project">
+            <div class="card-body text-center">
+              <h5 class="card-title">Modern Reality Hotel</h5>
+              <p class="card-text">Elegant, responsive site for hotel services.</p>
+              <a href="projects.html" class="btn btn-info">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-secondary text-white">
+            <img src="img/rgold.png" class="card-img-top" alt="DE-Real Gold Solar Project">
+            <div class="card-body text-center">
+              <h5 class="card-title">DE-Real Gold Solar</h5>
+              <p class="card-text">Sustainable energy site with clean UI.</p>
+              <a href="projects.html" class="btn btn-info">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-12 text-center">
+          <h5 class="display-3">Let's Work Together</h5>
+          <a href="contact.html" class="btn btn-lg btn-outline-info text-center text-white">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+              <li><a href="projects.html" class="text-white text-decoration-none">Projects</a></li>
+              <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Offices</h5>
+            <p>Head Office: 6th Avenue, Gwarinpa</p>
+            <p>Branch: Dutse, Abuja</p>
+            <p>Tel: 08131664966</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Me</h5>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+            <a href="https//:wa.me/+23481664966" class="text-white me-3"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="container text-center pt-3">
+        <div class="row">
+          <p class="p-2">&copy 2025 Abdullateef.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
